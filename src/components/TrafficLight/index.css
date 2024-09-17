@@ -1,0 +1,78 @@
+.traffic-light-system {
+  text-align: center;
+  background-image: url('https://www.swarco.com/sites/default/files/public/styles/head_banner/public/hero/image/2018-11/website_keyvisual_intersection2.jpg?itok=uCLw7WKF');
+  height: 100vh;
+  background-size: cover;
+  padding-top: 40px;
+}
+
+.traffic-light {
+  width: 80px;
+  height: 240px;
+  background-color: black;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 20px auto;
+}
+
+.light {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #cccccc;
+  transition: background-color 1s;
+  margin-left: 10px;
+}
+span {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 20px;
+  color: #000000;
+}
+.green {
+  background-color: green;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.red {
+  background-color: red;
+}
+
+.countdown {
+  font-family: 'Roboto';
+  font-weight: bold;
+  color: #cccccc;
+  font-size: 18px;
+  margin: 10px;
+}
+
+.pedestrian-btn,
+.emergency-btn {
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.pedestrian-btn:hover,
+.emergency-btn:hover {
+  background-color: #45a049;
+}
+
+.emergency-btn {
+  background-color: #ff5722;
+}
+
+.emergency-btn:hover {
+  background-color: #e64a19;
+}
